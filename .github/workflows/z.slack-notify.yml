@@ -1,4 +1,4 @@
-name: "x Slack Notify"
+name: "z Slack Notify"
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ jobs:
     name: Slack notify
     runs-on: ubuntu-latest
     steps:
-      - name: slack notify
+      - name: Slack notify
         uses: slackapi/slack-github-action@v1.23.0
         with:
           channel-id: "C05510PG0TY"
@@ -31,10 +31,10 @@ jobs:
 					              "type": "mrkdwn",
 						            "text": "Hello World :ghost:"
 					            }
-				             }
-			             ]
-		             }
-	              ]
-              }
-          env:
-            SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+				            }
+			            ]
+		            }
+	            ]
+            }
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
