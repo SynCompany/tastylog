@@ -142,7 +142,7 @@ jobs:
                       "type": "header",
                       "text": {
                         "type": "plain_text",
-                        "text": "Runner Finished: ${{ step.apply.outcome }}",
+                        "text": "Runner Finished: ${{ steps.apply.outcome }}",
                         "emoji": true
                         }
                     },
