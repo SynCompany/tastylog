@@ -1,4 +1,4 @@
-name: "x Slack Notify"
+name: "z Slack Notify"
 
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ jobs:
       - name: Slack notify
         uses: slackapi/slack-github-action@v1.23.0
         with:
-          channel-id: "C05510PG0TY"
+          channel-id: "C055BS4HP2M"
           payload: |
             {
               "attachments": [
